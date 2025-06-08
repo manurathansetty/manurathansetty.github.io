@@ -1555,7 +1555,7 @@
             if (form) {
                 form.addEventListener('submit', (e) => {
                     e.preventDefault();
-                    alert('Thank you for your message!');
+                    alert('Checking my dms......');
                 });
             }
         });
@@ -1591,14 +1591,14 @@
                     });
 
                     if (response.ok) {
-                        alert("✅ Message sent successfully!");
+                        alert("Yep got it mate! will reach you out soon ;)");
                         form.reset();
                     } else {
-                        alert("❌ Failed to send. Please try again.");
+                        alert("Oops can u just get the message on other platforms something not quite right :/");
                     }
                 } catch (error) {
                     console.error("Error:", error);
-                    alert("⚠️ An error occurred. Please try again later.");
+                    alert("Oops can u just get the message on other platforms something not quite right :/");
                 }
             });
         });
